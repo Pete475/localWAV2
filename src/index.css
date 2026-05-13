@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&family=Space+Mono&display=swap');
+
+body {
+  background-color: #f4f4f4;
+  color: #1a1a1a;
+  font-family: 'Space Grotesk', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* The Base Button Style */
+.card-button {
+  background: white;
+  border: 3px solid #1a1a1a;
+  box-shadow: 6px 6px 0px #1a1a1a;
+  transition: all 0.15s ease-in-out;
+  padding: 2rem;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Specific Hover Accents - We use !important to override inline JS styles */
+.cinematic-hover:hover {
+  box-shadow: 8px 8px 0px #2e5bff !important;
+  border-color: #2e5bff !important;
+  transform: translate(-2px, -2px);
+}
+
+.indie-hover:hover {
+  box-shadow: 8px 8px 0px #ff00ff !important;
+  border-color: #ff00ff !important;
+  transform: translate(-2px, -2px);
+}
+
+.clean-hover:hover {
+  box-shadow: 8px 8px 0px #00ff41 !important;
+  border-color: #00ff41 !important;
+  transform: translate(-2px, -2px);
+}
+
+.card-button:active {
+  transform: translate(4px, 4px) !important;
+  box-shadow: 0px 0px 0px #1a1a1a !important;
+}
+
+/* Utility for the mono font */
+.mono-text {
+  font-family: 'Space Mono', monospace;
+}
