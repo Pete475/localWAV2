@@ -60,8 +60,8 @@ function LandingPage() {
             <span style={styles.mono}>ENGINE: CLIENT_SIDE_v1.0</span>
           </div>
           <p style={styles.description}>
-            Professional mastering without the cloud. Your propriety audio stays
-            on your machine.
+            Professional mastering without the cloud. <br></br>Your propriety
+            audio stays on your machine.
           </p>
         </header>
 
